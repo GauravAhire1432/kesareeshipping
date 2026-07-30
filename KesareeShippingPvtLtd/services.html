@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Kesaree Shipping Pvt Ltd</title>
+  <meta name="description"
+    content="Kesaree Shipping services — Customs Clearance, Freight Forwarding, Transportation, and Export Incentives & Compliances." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body class="services-page">
+
+  <div id="page-loader">
+    <div class="loader-logo"><img src="assets/images/logo_Kesaree-removebg-preview.PNG" alt="Kesaree Shipping" /></div>
+    <div class="loader-bar">
+      <div class="loader-fill"></div>
+    </div>
+    <span class="loader-text">Loading Excellence</span>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-ref sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo_Kesaree-removebg-preview.PNG"
+          alt="Kesaree Shipping Pvt Ltd" /></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="nav-center mx-lg-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About Us</a>
+          <div class="nav-dropdown-wrap dropdown">
+            <a class="nav-link active dropdown-toggle" href="services.html" id="servicesDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu services-ref-dropdown" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item svc-nav-item active" href="#customs" data-service="customs">Customs
+                  Clearance</a></li>
+              <li><a class="dropdown-item svc-nav-item" href="#freight" data-service="freight">Freight Forwarding</a>
+              </li>
+              <li><a class="dropdown-item svc-nav-item" href="#transport" data-service="transport">Transportation</a>
+              </li>
+              <li><a class="dropdown-item svc-nav-item" href="#incentives" data-service="incentives">Export
+                  Incentives</a></li>
+            </ul>
+          </div>
+          <a class="nav-link" href="solutions.html">Solutions</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Service Hero -->
+  <section class="svc-hero" id="serviceHero">
+    <div class="container">
+      <div class="row svc-hero-row g-3">
+        <div class="col-lg-6 reveal-left">
+          <div class="svc-hero-content">
+            <h1 class="svc-hero-title">
+              <span class="word-orange" id="svcTitleOrange">Logistics</span>
+              <span class="word-navy" id="svcTitleNavy">Services</span>
+            </h1>
+            <p class="svc-hero-sub" id="svcSubtitle">Collaboration To Deliver Success</p>
+            <a href="contact.html" class="about-cta-split animate-hero d5">
+              <span class="about-cta-circle">Get</span>
+              <span class="about-cta-text">In Touch</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal-right">
+          <div class="svc-globe-wrap">
+            <svg class="svc-globe-svg" viewBox="0 0 520 420" fill="none" aria-hidden="true">
+              <circle cx="260" cy="210" r="175" stroke="#0a1628" stroke-width="1" opacity="0.1" />
+              <ellipse cx="260" cy="210" rx="175" ry="60" stroke="#0a1628" stroke-width="0.8" opacity="0.08" />
+              <ellipse cx="260" cy="210" rx="175" ry="110" stroke="#0a1628" stroke-width="0.8" opacity="0.08" />
+              <ellipse cx="260" cy="210" rx="60" ry="175" stroke="#0a1628" stroke-width="0.8" opacity="0.08" />
+              <ellipse cx="260" cy="210" rx="120" ry="175" stroke="#0a1628" stroke-width="0.8" opacity="0.08" />
+              <!-- Dots -->
+              <circle cx="200" cy="160" r="3" fill="#0a1628" opacity="0.2" />
+              <circle cx="280" cy="140" r="3" fill="#0a1628" opacity="0.2" />
+              <circle cx="320" cy="200" r="3" fill="#f47b20" opacity="0.5" />
+              <circle cx="240" cy="240" r="3" fill="#0a1628" opacity="0.2" />
+              <circle cx="180" cy="220" r="3" fill="#0a1628" opacity="0.2" />
+              <circle cx="300" cy="260" r="3" fill="#0a1628" opacity="0.2" />
+              <circle cx="350" cy="170" r="3" fill="#0a1628" opacity="0.2" />
+              <circle cx="160" cy="180" r="3" fill="#f47b20" opacity="0.4" />
+              <!-- Animated arcs -->
+              <path class="svc-arc arc-1" d="M160 180 Q260 80 350 170" stroke="#0a1628" stroke-width="1.2"
+                opacity="0.25" />
+              <path class="svc-arc arc-2" d="M200 160 Q320 120 320 200" stroke="#f47b20" stroke-width="1"
+                opacity="0.35" />
+              <path class="svc-arc arc-3" d="M180 220 Q260 300 300 260" stroke="#0a1628" stroke-width="1"
+                opacity="0.2" />
+              <path class="svc-arc arc-4" d="M350 170 Q260 210 160 180" stroke="#0a1628" stroke-width="0.8"
+                opacity="0.18" stroke-dasharray="4 4" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Hub Grid (Reference Style) -->
+  <section class="svc-hub-section">
+    <div class="container">
+      <div class="svc-hub-layout">
+        <div class="svc-hub-side svc-hub-left">
+          <div class="svc-hub-box reveal">Import Clearance</div>
+          <div class="svc-hub-box reveal">Export Clearance</div>
+          <div class="svc-hub-box reveal">Freight Forwarding</div>
+          <div class="svc-hub-box reveal">Warehousing</div>
+          <div class="svc-hub-box reveal">Inland Transportation</div>
+          <div class="svc-hub-box reveal">LCL Import/Export</div>
+          <div class="svc-hub-box reveal">ODC Cargo Handling</div>
+          <div class="svc-hub-box reveal">Cargo Insurance</div>
+        </div>
+        <div class="svc-hub-center reveal">
+          <img src="assets/images/logo_Kesaree-removebg-preview.PNG" alt="Kesaree Shipping" />
+        </div>
+        <div class="svc-hub-side svc-hub-right">
+          <div class="svc-hub-box reveal">RoDTEP/RoSCTL</div>
+          <div class="svc-hub-box reveal">Advance Authorization</div>
+          <div class="svc-hub-box reveal">EPCG Authorization</div>
+          <div class="svc-hub-box reveal">Restricted Import</div>
+          <div class="svc-hub-box reveal">Restricted Export</div>
+          <div class="svc-hub-box reveal">AEO Certification</div>
+          <div class="svc-hub-box reveal">DGFT/Icegate Services</div>
+          <div class="svc-hub-box reveal">Drawback/IGST</div>
+        </div>
+        <div class="svc-hub-footer reveal">
+          <div class="svc-hub-box svc-hub-wide">FEMA Compliance/e-BRC Assistance</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study Section -->
+  <section class="svc-case-study">
+    <div class="container-fluid px-lg-4">
+      <div class="svc-case-wrap reveal">
+        <div class="svc-case-img">
+          <img src="assets/images/aerial-view-cargo-ship-cargo-container-harbor.jpg"
+            alt="Kesaree Shipping Case Study" />
+        </div>
+        <div class="svc-case-orange">
+          <h2>Our Case Study</h2>
+          <p>Efficiently Managing Global Export Logistics For Diverse Industries Across Borders</p>
+          <div class="svc-case-stats">
+            <div class="svc-case-stat">
+              <span class="stat-lbl">clients</span>
+              <span class="stat-val" data-count="200" data-suffix="+">0</span>
+            </div>
+            <div class="svc-case-stat">
+              <span class="stat-lbl">Global Destinations</span>
+              <span class="stat-val" data-count="50" data-suffix="+">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="svc-case-logo-badge animate-float">
+          <img src="assets/images/logo_Kesaree-removebg-preview.PNG" alt="Kesaree Shipping" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Detail Sections -->
+  <section class="svc-detail-section" id="customs" data-service="customs">
+    <div class="container">
+      <div class="svc-detail-grid reveal">
+        <div class="svc-detail-visual">
+          <img src="assets/images/CustomsClearance.jpeg" alt="Customs Clearance Services" />
+        </div>
+        <div class="svc-detail-content">
+          <h2><span class="word-orange">Customs</span> Clearance</h2>
+          <p>Kesaree Shipping Pvt Ltd provides reliable and hassle-free customs clearance services for both import and
+            export shipments. Our experienced team ensures smooth documentation, regulatory compliance, and timely cargo
+            clearance to avoid delays and simplify international trade operations for our clients.</p>
+          <ul class="svc-feature-list">
+            <li><i class="fas fa-check"></i> Documentation & Filing</li>
+            <li><i class="fas fa-check"></i> Regulatory Compliance</li>
+            <li><i class="fas fa-check"></i> Import & Export Handling</li>
+            <li><i class="fas fa-check"></i> Cargo Clearance</li>
+            <li><i class="fas fa-check"></i> Regulatory Advisory</li>
+          </ul>
+          <a href="contact.html" class="svc-detail-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="svc-detail-section svc-alt" id="freight" data-service="freight">
+    <div class="container">
+      <div class="svc-detail-grid reverse reveal">
+        <div class="svc-detail-visual">
+          <img src="assets/images/FreightForwarding.jpeg" alt="Freight Forwarding Services" />
+        </div>
+        <div class="svc-detail-content">
+          <h2><span class="word-orange">Freight</span> Forwarding</h2>
+          <p>Efficient and cost-effective freight forwarding for global cargoKesaree Shipping Pvt Ltd offers efficient
+            and cost-effective freight forwarding solutions for global cargo movement. We manage end-to-end logistics,
+            including shipment planning, carrier coordination, documentation, and timely delivery to ensure smooth and
+            reliable transportation worldwide.</p>
+          <ul class="svc-feature-list">
+            <li><i class="fas fa-check"></i> Shipment Planning</li>
+            <li><i class="fas fa-check"></i> Carrier Coordination</li>
+            <li><i class="fas fa-check"></i> Air & Sea Freight</li>
+            <li><i class="fas fa-check"></i> Worldwide Delivery</li>
+            <li><i class="fas fa-check"></i> Documentation Management</li>
+          </ul>
+          <a href="contact.html" class="svc-detail-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="svc-detail-section" id="transport" data-service="transport">
+    <div class="container">
+      <div class="svc-detail-grid reveal">
+        <div class="svc-detail-visual">
+          <img src="assets/images/Transportation.jpeg" alt="Transportation Services" />
+        </div>
+        <div class="svc-detail-content">
+          <h2><span class="word-orange">Transportation</span> Services</h2>
+          <p>
+            Kesaree Shipping Pvt Ltd provides reliable transportation services with its own fleet of vehicles, ensuring
+            safe, timely, and efficient movement of cargo. Our in-house transport capability helps us maintain better
+            control over deliveries, reduce delays, and offer flexible logistics solutions tailored to customer
+            requirements.
+          </p>
+          <ul class="svc-feature-list">
+            <li><i class="fas fa-check"></i> Own Fleet Operations</li>
+            <li><i class="fas fa-check"></i> Safe & Timely Delivery</li>
+            <li><i class="fas fa-check"></i> Last-Mile Connectivity</li>
+            <li><i class="fas fa-check"></i> Flexible Scheduling</li>
+            <li><i class="fas fa-check"></i> Port to Door Delivery</li>
+          </ul>
+          <a href="contact.html" class="svc-detail-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="svc-detail-section svc-alt" id="incentives" data-service="incentives">
+    <div class="container">
+      <div class="svc-detail-grid reverse reveal">
+        <div class="svc-detail-visual">
+          <img src="assets/images/ExportIncentives.jpeg" alt="Export Incentives Services" />
+        </div>
+        <div class="svc-detail-content">
+          <h2><span class="word-orange">Export</span> Incentives</h2>
+          <p>
+            Kesaree Shipping Pvt Ltd provides complete assistance in managing export incentives and regulatory
+            compliance to support smooth international trade operations. Our services include guidance and documentation
+            support for schemes such as FEMA compliance, RoDTEP, RoSCTL, EPCG, Advance Authorization, as well as
+            handling restricted import and export authorizations.
+            We ensure exporters can maximize benefits, stay compliant with government regulations, and avoid delays in
+            their shipment processes.
+          </p>
+          <ul class="svc-feature-list">
+            <li><i class="fas fa-check"></i> FEMA Compliance</li>
+            <li><i class="fas fa-check"></i> RoDTEP & RoSCTL</li>
+            <li><i class="fas fa-check"></i> EPCG Scheme</li>
+            <li><i class="fas fa-check"></i> Advance Authorization</li>
+            <li><i class="fas fa-check"></i> Export Policy Advisory</li>
+          </ul>
+          <a href="contact.html" class="svc-detail-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="svc-process">
+    <div class="container">
+      <div class="text-center svc-process-header reveal">
+        <h2 class="svc-process-title"><span class="word-orange">How We</span> <span class="word-navy">Work</span></h2>
+        <p class="svc-process-sub">A streamlined process for seamless logistics delivery</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-lg-3">
+          <div class="svc-process-step reveal">
+            <div class="step-num">01</div>
+            <h5>Consultation</h5>
+            <p>Understanding your shipping requirements.</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="svc-process-step reveal">
+            <div class="step-num">02</div>
+            <h5>Planning</h5>
+            <p>Custom strategy with optimal routes.</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="svc-process-step reveal">
+            <div class="step-num">03</div>
+            <h5>Execution</h5>
+            <p>Documentation, clearance & transport.</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="svc-process-step reveal">
+            <div class="step-num">04</div>
+            <h5>Delivery</h5>
+            <p>Timely delivery with full support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding-sm">
+    <div class="container-fluid px-0">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <div class="dual-card orange reveal-left">
+            <div>
+              <h3>Need Custom Logistics?</h3>
+              <p>Talk to our experts for a tailored service package.</p>
+            </div>
+            <a href="contact.html" class="btn-circle-read">Get In<br>Touch</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="dual-card grey reveal-right">
+            <div>
+              <h3>Explore Solutions</h3>
+              <p>End-to-end trade & compliance solutions for exporters.</p>
+            </div>
+            <a href="solutions.html" class="btn-circle-read">View<br>Solutions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-ref">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-ref-logo"><img src="assets/images/logo_Kesaree-removebg-preview.PNG"
+              alt="Kesaree Shipping" /></div>
+          <p class="footer-ref-desc">Kesaree Shipping Pvt Ltd is a trusted logistics and trade facilitation company
+            providing Customs Clearance, Freight Forwarding, Transportation and Export Incentive solutions.</p>
+          <div class="footer-ref-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/kesareeshipping?s=11&t=DNpyyiZoiqfjAQS13fSVSQ" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/kesareeshipping/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Sitemap</h5>
+          <ul class="footer-ref-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5>Services</h5>
+          <ul class="footer-ref-links">
+            <li><a href="services.html#customs">Customs Clearance</a></li>
+            <li><a href="services.html#freight">Freight Forwarding</a></li>
+            <li><a href="services.html#transport">Transportation</a></li>
+            <li><a href="services.html#incentives">Export Incentives</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Contact Us</h5>
+          <ul class="footer-ref-links footer-ref-contact list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i><span>223, NBC Complex, Sakal Marg Road, Sector 11, CBD Belapur,
+                Navi Mumbai 400614</span></li>
+            <li><i class="fas fa-phone"></i><a href="tel:+917875918325">+91 7875918325</a></li>
+            <li><i class="fas fa-envelope"></i><a
+                href="mailto:nilesh@kesareeshipping.com">nilesh@kesareeshipping.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-ref-bar">&copy; 2026 Kesaree Shipping Pvt Ltd, All Rights Reserved</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
